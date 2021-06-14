@@ -41,3 +41,31 @@ function my_keydown(e){
         right();
     }
 }
+function up(){
+    if(rover_y>=0){
+        rover_y-=10;
+        upbackground();
+        uprover();
+    }
+}
+function down(){
+    if(rover_y<=500){
+        rover_y+=10;
+        upbackground();
+        uprover();
+    }
+}
+function left(){
+    if(rover_x>=0){
+        rover_x-=10;
+        upbackground();
+        uprover();
+    }
+}
+function right(){
+    if(rover_x<=700){
+        rover_x+=10;
+        upbackground();
+        uprover();
+    }
+}
