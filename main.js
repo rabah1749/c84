@@ -4,7 +4,9 @@ rover_width=100;
 rover_height=90;
 rover_x=10;
 rover_y=10;
-background_img="mars.jpg";
+Images_array=["nasa1.jpeg","nasa2.jpeg","nasa3.jpeg"];
+n=Math.floor(Math.random()*3);
+background_img=Images_array[n];
 rover_img="rover.png";
 
 function add(){
